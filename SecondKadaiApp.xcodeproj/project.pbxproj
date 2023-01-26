@@ -13,6 +13,8 @@
 		E940C727297568940076B893 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E940C725297568940076B893 /* Main.storyboard */; };
 		E940C729297568950076B893 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E940C728297568950076B893 /* Assets.xcassets */; };
 		E940C72C297568950076B893 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E940C72A297568950076B893 /* LaunchScreen.storyboard */; };
+		E940C734297569980076B893 /* modoruViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E940C733297569980076B893 /* modoruViewController.swift */; };
+		E997C783297E7B0200B88F13 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E997C782297E7B0200B88F13 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E940C728297568950076B893 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E940C72B297568950076B893 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E940C72D297568950076B893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E940C733297569980076B893 /* modoruViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modoruViewController.swift; sourceTree = "<group>"; };
+		E997C782297E7B0200B88F13 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E940C721297568940076B893 /* SceneDelegate.swift */,
 				E940C723297568940076B893 /* ViewController.swift */,
 				E940C725297568940076B893 /* Main.storyboard */,
+				E997C782297E7B0200B88F13 /* ResultViewController.swift */,
+				E940C733297569980076B893 /* modoruViewController.swift */,
 				E940C728297568950076B893 /* Assets.xcassets */,
 				E940C72A297568950076B893 /* LaunchScreen.storyboard */,
 				E940C72D297568950076B893 /* Info.plist */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E940C724297568940076B893 /* ViewController.swift in Sources */,
+				E940C734297569980076B893 /* modoruViewController.swift in Sources */,
 				E940C720297568940076B893 /* AppDelegate.swift in Sources */,
 				E940C722297568940076B893 /* SceneDelegate.swift in Sources */,
+				E997C783297E7B0200B88F13 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
